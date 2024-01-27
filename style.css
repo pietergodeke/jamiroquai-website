@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+    background-color:#b4bfcc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-color: #E6F2FF;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    padding: 20px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whatisjamiroquai {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
+
+.textwhatis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+
+.whyilikethemsomuch {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.textwhyilike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.timestamp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 120px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: large; 
+}
+
+.timestamp img {
+    margin-top: 20px;
+}
+
+.albumsrows {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.albumsrows2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.albumrowleft {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.albumrowright {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-top: 30px;
+}
+
+.liveperformances {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.ytvid {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin: 20px;
+}
+
+.vidstop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.vidsunder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+.ytvid button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#33CCFF;
+}
+
+header {
+    text-transform: uppercase;
+}
